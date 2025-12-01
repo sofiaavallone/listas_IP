@@ -8,7 +8,7 @@ def checagem_especifica(palavra):
                 print("TUDO! O Gloss tá on. O look de Glinda tá salvo!")
             else:
                 print("CADÊ meu gloss? Como divarei? ... A Glinda tá chorando de raiva!")
-        else:
+        if retorno[0] == "latte":
             if retorno[1] <= 0:
                 print("Latte gelado pronto! A voz de Glinda está salva. Pode vir o próximo take")
             else:
