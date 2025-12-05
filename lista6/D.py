@@ -37,7 +37,7 @@ while entrada != "Já chega de fatos sobre a Taylor, vai fazer a lista de IP":
     elif entrada == "Quais são todas as músicas relacionadas a essa pessoa?":
         pessoa = input()
 
-        print(f"Cartas de amor ou indiretas, as músicas dedicadas a {pessoa} são: ")
+        print(f"Cartas de amor ou indiretas, as músicas dedicadas a {pessoa} são: ", end='')
         for key, value in vida_amorosa.items():
             if key == pessoa:
                 nova_tupla = value[:-1]
